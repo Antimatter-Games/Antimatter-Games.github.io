@@ -18,6 +18,7 @@
         h1 {
             font-size: 35px;
             margin: 0;
+            padding-left: 10px; /* Add padding to align with logo */
         }
 
         .header {
@@ -37,34 +38,38 @@
             margin: 0;
             background: url('assets/background.jpg') no-repeat center center fixed;
             background-size: cover;
-            padding-top: 80px; 
+            padding-top: 80px; /* Adjust for fixed header */
         }
 
         nav {
             text-align: right;
             color: #000000;
-            margin-right: 10px; 
+            margin-right: 10px; /* Add margin instead of padding */
         }
 
         a {
             color: #000000;
-            margin-left: 10px; 
+            margin-left: 10px; /* Add margin between links */
         }
 
-        
+        /* Media Queries */
         @media (max-width: 768px) {
             .header {
                 padding: 5px;
             }
 
+            h1 {
+                padding-left: 0; /* Reset padding for smaller screens */
+            }
+
             nav {
-                text-align: center; 
+                text-align: center; /* Center align nav items on smaller screens */
                 margin-right: 0;
             }
 
             a {
-                margin: 0 5px; 
-                display: block; 
+                margin: 0 5px; /* Adjust margin for links on smaller screens */
+                display: block; /* Display links as block elements */
             }
         }
 
@@ -76,8 +81,8 @@
         <h1>Antimatter Games</h1>
     </div>
     <nav>
-        <a href="mailto: msn21.contactme@gmail.com">Contact msn-21</a>
-        <a href="mailto: antimatterofficial.contactme@gmail.com">Contact antimatter-official</a>
+        <a href="mailto:msn21.contactme@gmail.com">Contact msn-21</a>
+        <a href="mailto:antimatterofficial.contactme@gmail.com">Contact antimatter-official</a>
     </nav>
 </body>
 </html>
