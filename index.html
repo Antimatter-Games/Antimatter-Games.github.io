@@ -43,13 +43,17 @@
 
       .header {
         background-color: #ffffff;
-        display: block;
+        display: inline;
         text-align: left;
       }
 
       .bodyContent{
         background-image: url("assets/background.jpeg");
         color: #ffffff;
+      }
+
+      .header-child {
+        display: inline;
       }
 
     </style>
@@ -60,8 +64,8 @@
     </head>
     <body>
         <div class="header">
-            <img src="/assets/black-hole.png" alt="logo" width="100" height="100">
-            <h1>
+            <img src="/assets/black-hole.png" alt="logo" width="100" height="100" class="header-child">
+            <h1 class="header-child">
                 Antimatter Games
             </h1>
         </div>
